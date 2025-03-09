@@ -1,0 +1,88 @@
+<style>
+	html, body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+}
+	
+	body {
+		background-color: #DCD7C9 !important;
+	}
+	
+	h1 {
+        padding: auto;
+		text-align: center;
+		font-size: 7em;
+		color: #2C3930;
+		border-bottom: 5px solid #A27B5C;
+	}
+	
+	h2 {
+		padding: 13px;
+		background-color: #2C3930;
+		border: 3px solid #3F4F44;
+		text-align: left;
+		font-size: 2.15em;
+		color: #A27B5C;
+	}
+	
+	h3 {
+		font-size: 1.5em;
+	}
+	
+	ul, p {
+		font-size: 1.15em;
+	}
+	
+	nav {
+		position: fixed;
+		top: 0;
+		background-color: #DCD7C9;
+		border-bottom: 5px solid #A27B5C;
+		width: 100%;
+		padding: 1rem;
+	}
+	
+	nav a {
+		text-align: left;
+		justify-content: space-between;
+		color: #2C3930;
+		font-size: 1.1rem;
+	}
+	
+	nav a:hover {
+		color: #A27B5C;
+	}
+	
+	nav button {
+		background-color: #2C3930;
+		color: #DCD7C9;
+		text-align: center;
+		padding: 0.5em 1em;
+		font-size: 1em;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		transition: background-color 0.3s ease, transform 0.1s ease;
+	}
+
+	nav button:hover{
+		background-color: #A27B5C;
+	}
+	
+	.container {
+            display: flex;
+            justify-content: space-between;
+    }
+
+    .box {
+			width: 98%;
+            padding: 13px;
+            background-color: #A27B5C;
+            border: 3px solid #3F4F44;
+			text-family: arial, sans-serif;
+            text-align: left;
+			font-size: 1.4rem;
+			color: #2C3930;
+    }
+</style>
