@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Petrol Calculator</title>
+    <link rel="stylesheet" href="calcustylesheet.css"> <!-- Link to external CSS file -->
+   <meta charset="utf-8">
+  </head>
+
+  <body>
+    <div class="box">
+      <h2>Petrol Calculator</h2> <!-- Page Heading -->
+
+      <table border="2"> <!-- Table is used to organize the input fields -->
+        <tr> <!-- Table Rows-->
+          <td> <!-- Table Cells -->
+            <label for="petrol">Cost of Petrol per Liter:</label> <!-- This tag describes the input field-->
+          </td>
+          <td>
+            <input type="number" id="petrol" value="1.72" step="0.15" autofocus>
+            <!-- The input field for petrol price with a default value of 1.72 -->
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="liters">Liters Purchased:</label>
+          </td>
+          <td>
+            <input type="number" id="liters" value="0" step="0.15" autofocus>
+            <!-- Input field for liters purchased -->
+          </td>
+        </tr>
+
+        <tr>
+          <th>
+            <p>Total Cost</p> <!-- Label for total cost -->
+          </th>
+          <th>
+            <p id="total">$0.00</p>
+          </th>
+        </tr>
+      </table>
+      
+      <p>
+        <button onclick="fCalculatePetrol()">Calculate</button>
+      </p>
+    </div>
+
+    <script> // This tag is used to define Javascript
+      function fCalculatePetrol() {
+        // Calls the values from the input fields
+        let xPetrol = document.getElementById('petrol').value;
+        let xLiters = document.getElementById('liters').value;
+
+        // Calculates the total price of petrol
+        let xTotalCost = xPetrol * xLiters;
+        // Displays the total price with 2 decimal places
+        document.getElementById('total').innerHTML = '$' + xTotalCost.toFixed(2);
+      }
+    </script>
+  </body>
+</html>
