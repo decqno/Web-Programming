@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BearLots Furry Friends</title>
+        <link rel="stylesheet" href="Styles/rescueorgstyle.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="Homepage.html"><img src="Styles/Images/logo.avif" alt="BFF"></a>
+                <ul>
+                    <li><a href="Homepage.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Rescue.html" class="currentpage">Rescue Organization</a></li>
+                    <li><a href="Service.html">Service Providers</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="section-orange">
+                <div class="text">
+                    <h1>Rescue Organization Partnership Program</h1>
+                    <p style="text-align: justify;">At Bearlot's Furry Friends, we are passionate about creating furry tails. If you are a Rescue Organization dedicated to making a difference in the welfare of cats and dogs, we want to hear from you!</p>
+                </div>
+            </div>
+
+            <div class="section-blue">
+                <div class="text">
+                    <h2>Why BFF?</h2>
+                </div>
+
+                <div class="grouping">
+                    <div class="box">
+                        <h3>Easy Onboarding</h3>
+                        <p style="font-size: 1.25em;">We have simplified the onboarding process to ensure you can quickly start using our app. Our team will guide you through every step, making it a smooth transition.</p>
+                    </div>
+
+                    <div class="box">
+                        <h3>Showcase Your Rescues</h3>
+                        <p style="font-size: 1.25em;">BFF allows you to showcase the rescues under your care with stunning profiles, heartwarming stories, and captivating photos, making it easier for potential pawrents to connect with them.</p>
+                    </div>
+
+                    <div class="box">
+                        <h3>Seamless Communication</h3>
+                        <p style="font-size: 1.25em;">BFF facilitates seamless communication between your organization and potential adopters / foster homes, streamlining the process.</p>
+                    </div>
+                </div>
+
+                <div class="grouping" id="box-adjust">
+                    <div class="box">
+                        <h3>Reach a Wider Audience</h3>
+                        <p style="font-size: 1.25em;">With our extensive reach, you can connect with potential adopters and foster homes not only in your local area but also from various cities around you.</p>
+                    </div>
+
+                    <div class="box">
+                        <h3>No Fees</h3>
+                        <p style="font-size: 1.25em;">We are dedicated to supporting your mission without any financial burden. We do not charge any fees for onboarding your organization onto our app, nor do we take or process any adoption or fostering fees.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="text">
+                    <h2>Supporting Rescue Organizations Across UAE</h2>
+                </div>
+
+                <div class="grouping">
+                    <a href="https://www.instagram.com/furrballs_dogs/?hl=en" target="_blank">
+                        <img src="Styles/Images/furrballs.png" alt="Furrballs Animal Welfare Organization">
+                    </a>
+
+                    <a href="https://www.instagram.com/themussafahdogproject/" target="_blank">
+                        <img src="Styles/Images/mussafah.png" alt="The Mussafah Dog Project">
+                    </a>
+
+                    <a href="https://www.instagram.com/redpawadoption/?hl=en" target="_blank">
+                        <img src="Styles/Images/red-paw.png" alt="Red Paw Adoption">
+                    </a>
+                </div>
+            </div>
+
+            <div class="section-orange">
+                <div class="text">
+                    <h2>Partner With Us</h2>
+                    <p id="text-adjust">If you are as passionate as we are about giving rescues a chance for a happy life filled with love, we would be thrilled to have you on board. Together, we can create a world where every rescue finds the perfect forever home.
+                    <br><br>To join our Rescue Organization Partnership Program, simply fill out the contact form below, and one of our dedicated team members will reach out to you.
+                    <br><br>Let us work hand in paw to make a difference!</p>
+                </div>
+
+                <div class="section-form">
+                    <img src="Styles/Images/cat.png" class="pets" alt="Cat in Collar">
+                    <form target="_blank" method="get" id="partner-form">
+                        <div class="form-group">
+                            <div class="input-section">
+                                <label for="first-name">First Name:</label>
+                                <input type="text" id="first-name" name="first-name" required>
+                            </div>
+
+                            <div class="input-section">
+                                <label for="last-name">Last Name:</label>
+                                <input type="text" id="last-name" name="last-name" required>
+                            </div>
+
+                            <div class="input-section">
+                                <label for="rescue-org">Rescue Organization:</label>
+                                <input type="text" id="rescue-org" name="rescue-org" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-section">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="input-section">
+                                <label for="phone">Phone:</label>
+                                <input type="text" id="phone" name="phone" required>
+                            </div>
+
+                            <div class="input-section">
+                                <label for="emirate">Emirate:</label>
+                                <select id="emirate" name="emirate" required>
+                                    <option value=""></option>
+                                    <option value="abudhabi">Abu Dhabi</option>
+                                    <option value="ajman">Ajman</option>
+                                    <option value="dubai">Dubai</option>
+                                    <option value="fujairah">Fujairah</option>
+                                    <option value="rak">Ras Al Khaimah</option>
+                                    <option value="sharjah">Sharjah</option>
+                                    <option value="ummalqaiwain">Umm Al Qaiwain</option>
+                                </select>
+                            </div>
+                        </div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <button type="submit" id="send">Send</button>
+                    </form>
+                    
+                    <img src="Styles/Images/two-dogs.png" class="pets" alt="Dogs in Case">
+                </div>
+            </div>
+
+            <script src="JavaScript/partnerform.js"></script>
+        </main>
+
+        <footer>
+            <h4>BFF Bearlot's Furry Friends</h4>
+            <div>
+                <ul>
+                    <li><a href="Terms.html"><u>Terms</u></a></li>
+                    <li><a href="Privacy.html"><u>Privacy</u></a></li>
+                    <li><a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=info@bearlotsfriends.com" target="_blank"><u>info@bearlotsfriends.com</u></a></li>
+                </ul>
+            </div>
+
+            <hr>
+
+            <div class="rights-and-socials">
+                <div class="copyright">
+                    &copy; 2024 BFF Bearlot's Furry Friends. All rights reserved.
+                </div>
+
+                <div class="socials">
+                    <a href="https://api.whatsapp.com/send/?phone=%2B971502406393" target="_blank">
+                        <img src="Styles/Images/whatsapp.jpg" alt="WhatsApp">
+                    </a>
+                    <a href="https://www.instagram.com/bearlotsfurryfriends/" target="_blank">
+                        <img src="Styles/Images/insta.jpg" alt="Instagram">
+                    </a>
+                    <a href="https://www.facebook.com/bearlotsfurryfriends" target="_blank">
+                        <img src="Styles/Images/facebook.jpg" alt="Facebook">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

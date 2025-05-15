@@ -1,0 +1,308 @@
+/* DEFAULT STYLING FOR HEADER */
+
+    html, body {
+		height: auto;
+		margin: 0;
+		padding: 0;
+	}
+
+	header {
+		background-color: #FFFCF0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 9999;
+        height: 100px;
+	}
+
+    nav {
+        font-family: Arial, sans-serif;
+        font-weight: 700;
+        font-size: 1.10em;
+        align-items: center;
+        text-align: center;
+		padding: 5px;
+        width: 90%;
+        margin: 5px;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    nav img {
+        width: 90px;
+        height: 70px;
+        margin-left: 135px;
+        justify-content: left;
+    }
+
+	nav ul {
+		list-style: none;
+		padding: 5px;
+		display: flex;
+		justify-content: end;
+	}
+
+	nav li a {
+		margin: 15px;
+		color: #4FADAF;
+		text-decoration: none;
+	}
+
+    nav li a:hover {
+        color: #F9C78F;
+    }
+
+    .currentpage {
+        color: #F59D39;
+    }
+
+/* DEFAULT FOOTER STYLING */
+
+    footer {
+        background-color: #FFFCF0;
+        color: #353535;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 10px 20px;
+    }
+
+    footer ul {
+        list-style: none;
+        padding: 5px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    footer li a {
+        font-size: 1em;
+        color: #353535;
+        text-decoration: none;
+    }
+
+    footer li a:hover {
+        color: #4FADAF;
+    }
+
+    footer img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+
+    h4 {
+        font-size: 1.5em;
+        text-align: center;
+        margin: 0;
+    }
+
+    .rights-and-socials {
+        width: 100%;
+        margin: 10px auto;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .socials a {
+        text-decoration: none;
+    }
+
+/* CURRENT PAGE STYLING */
+
+    body {
+		background-color: #FFFCF0;
+        margin: 0;
+		padding-top: 100px;
+	}
+
+    main {
+        color: #353535;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1 {
+        font-size: 3em;
+        font-weight: 900;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h2 {
+        font-size: 2.3em;
+        font-weight: 900;
+        text-align: center;
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h3 {
+        font-size: 1.80em;
+        font-weight: 900;
+        text-align: center;
+        margin: 0;
+        padding: 10px;
+        padding-bottom: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    p {
+        font-size: 1.5em;
+        line-height: 35px;
+    }
+
+    main img {
+        align-content: center;
+        width: 150px;
+        height: 150px;
+    }
+
+    form {
+        background-color: #FFFCF0;
+        padding: 30px;
+        width: 100%;
+        max-width: 900px;
+        margin: 30px auto;
+        margin-top: 0;
+        border-radius: 10px;
+        box-shadow: 0 0 25px rgba(79, 173, 175, 0.2);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    label {
+        font-size: 1em;
+        font-weight: bold;
+        color: #4FADAF;
+        text-align: left;
+    }
+
+    input, select, textarea {
+        font-size: 0.90em;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        transition: 0.3s ease;
+    }
+
+    input:focus, select:focus, textarea:focus {
+        border-color: #4FADAF;
+        outline: none;
+        box-shadow: 0 0 5px rgba(79, 173, 175, 0.4);
+    }
+
+    button {
+        background-color: #4FADAF;
+        color: white;
+        font-size: 1em;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 30px;
+        cursor: pointer;
+        align-self: center;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    button:hover {
+        background-color: #353535;
+        transform: scale(1.05);
+    }
+
+    .section-orange {
+        background-color: #F9C78F;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section-blue {
+        background-color: #4FADAF;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .section-form {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .form-group {
+        display: flex;
+        gap: 40px;
+    }
+
+    .input-section {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text {
+        display: block;
+        width: 100%;
+        margin: 40px;
+        padding-left: 150px;
+        padding-right: 150px;
+        text-align: center;
+    }
+
+    .grouping {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        margin: 25px 110px;
+        margin-top: 0;
+    }
+
+    .box {
+        background-color: #D2F2FD;
+        padding: 15px;
+        width: 65%;
+        max-width: 900px;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.39);
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .pets {
+        float: right;
+        margin-top: 20px;
+        max-width: 100%;
+        width: 324px;
+        height: 388px;
+        max-height: auto;
+    }
+
+    #box-adjust {
+        margin: 15px 280px;
+        margin-top: 0;
+    }
+
+    #text-adjust {
+        text-align: justify;
+        font-size: 1.30em;
+        margin: 25px 70px;
+        margin-bottom: 0;
+    }

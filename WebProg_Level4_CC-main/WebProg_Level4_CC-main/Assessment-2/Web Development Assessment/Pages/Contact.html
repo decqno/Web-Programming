@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BearLots Furry Friends</title>
+        <link rel="stylesheet" href="Styles/contactstyle.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="Homepage.html"><img src="Styles/Images/logo.avif" alt="BFF"></a>
+                <ul>
+                    <li><a href="Homepage.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Rescue.html">Rescue Organization</a></li>
+                    <li><a href="Service.html">Service Providers</a></li>
+                    <li><a href="Contact.html" class="currentpage">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="section">
+                <div class="text">
+                    <h1>Contact</h1>
+                    <p>Feel free to reach out to us for any questions or inquiries.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <form method="get" id="contact-form">
+                    <div class="group">
+                        <div class="input-section">
+                            <label for="first-name">First Name:</label>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </div>
+
+                        <div class="input-section">
+                            <label for="last-name">Last Name:</label>
+                            <input type="text" id="last-name" name="last-name" required>
+                        </div>
+
+                        <div class="input-section">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" id="send">Send</button>
+                </form>
+
+                <img src="Styles/Images/contact-dog.png" alt="Happy Dog">
+            </div>
+
+            <script src="JavaScript/contactform.js"></script>
+        </main>
+
+        <footer>
+            <h2>BFF Bearlot's Furry Friends</h2>
+            <div>
+                <ul>
+                    <li><a href="Terms.html"><u>Terms</u></a></li>
+                    <li><a href="Privacy.html"><u>Privacy</u></a></li>
+                    <li><a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=info@bearlotsfriends.com" target="_blank"><u>info@bearlotsfriends.com</u></a></li>
+                </ul>
+            </div>
+
+            <hr>
+
+            <div class="rights-and-socials">
+                <div class="copyright">
+                    &copy; 2024 BFF Bearlot's Furry Friends. All rights reserved.
+                </div>
+
+                <div class="socials">
+                    <a href="https://api.whatsapp.com/send/?phone=%2B971502406393" target="_blank">
+                        <img src="Styles/Images/whatsapp.jpg" alt="WhatsApp">
+                    </a>
+                    <a href="https://www.instagram.com/bearlotsfurryfriends/" target="_blank">
+                        <img src="Styles/Images/insta.jpg" alt="Instagram">
+                    </a>
+                    <a href="https://www.facebook.com/bearlotsfurryfriends" target="_blank">
+                        <img src="Styles/Images/facebook.jpg" alt="Facebook">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
